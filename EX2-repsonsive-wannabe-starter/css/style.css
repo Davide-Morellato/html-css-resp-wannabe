@@ -134,19 +134,6 @@ img {
         padding: 0;
         margin: 0 auto;
     }
-    
-    ul, ol, menu{
-        list-style: none;
-    }
-    
-    a{
-        text-decoration: none;
-        color: currentColor;
-    }
-    
-    img{ 
-        max-width: 100%;
-    }
 }
 
 
@@ -180,6 +167,6 @@ img {
 
     .row{
         flex-wrap: wrap;
-        gap: 50px;
+        row-gap: 50px;
     }
 }
