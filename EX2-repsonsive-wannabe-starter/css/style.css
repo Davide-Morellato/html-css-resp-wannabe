@@ -158,15 +158,26 @@ img {
         width: 100%;
     }
 
-    .lessons .col,
-    .steps .col,
-    .why-us .col-right,
-    .why-us .col-left{
-        width: calc(12 * 100% / 12);
-    }
-
     .row{
         flex-wrap: wrap;
         row-gap: 50px;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col{
+        width: calc(12 * 100% / 12);
+    }
+
+    
+    /* revision */
+
+    .steps{
+        margin-bottom: 0;
+    }
+    .why-us{
+        padding: 3rem 0;
+        background-color: black;
+        margin-bottom: 0;
     }
 }
